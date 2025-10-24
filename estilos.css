@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+    background-color: #e0e0e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor {
+    width: 55%;
+    height: 55%;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 3px 10px 16px 2px #00000033;
+    display: flex;
+    position: relative;
+}
+
+.izquierda {
+    height: 100%;
+    width: 45%;
+    background-color: #2B89FF;
+    color: white;
+    position: relative;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.izquierda h1 {
+    position: absolute;
+    top: 80px;
+    left: 40px;
+    font-size: 26px;
+}
+
+.izquierda p {
+    position: absolute;
+    top: 130px;
+    left: 40px;
+    right: 40px;
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+.btn {
+    position: absolute;
+    top: 260px;
+    left: 40px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 10px 28px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.derecha {
+    height: 100%;
+    width: 55%;
+    background-color: white;
+    position: relative;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.derecha h2 {
+    position: absolute;
+    top: 80px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: #333;
+    font-size: 28px;
+}
+
+.derecha form {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.derecha input {
+    position: absolute;
+    left: 80px;
+    right: 80px;
+    padding: 12px 5px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    font-size: 13px;
+    color: #666;
+}
+
+.derecha input[type="text"] {
+    top: 160px;
+}
+
+.derecha input[type="password"] {
+    top: 220px;
+}
+
+.derecha input::placeholder {
+    color: #999;
+}
+
+.derecha button {
+    position: absolute;
+    bottom: 80px;
+    left: 110px;
+    right: 110px;
+    background-color: #2B89FF;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 12px;
+
+    font-weight: bold;
+    font-size: 14px;
+
+}
